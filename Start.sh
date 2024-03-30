@@ -11,7 +11,7 @@ nvm install 18
 nvm use 18
 apt install npm
 
-cd /root/wertotg/
+cd /root/Pears/
 npm install axios
 npm install axios cheerio
 npm install puppeteer
@@ -20,4 +20,3 @@ node peerskjnodes.js
 node peersnodejumper.js
 
 PEERS=$(cat peers.txt)
-sed -i 's|^persistent_peers =.*|persistent_peers = "'"$PEERS"'"|' $HOME/.babylond/config/config.toml
