@@ -11,6 +11,7 @@ nvm install 18
 nvm use 18
 apt install npm
 
+Cd /root/Pears
 npm install axios
 npm install axios cheerio
 npm install puppeteer
